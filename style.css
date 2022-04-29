@@ -21,3 +21,11 @@ h1{
     font-size: 32px;
     color:rgb(245, 138, 76) 
 }
+.info p {
+  color: #86898f;
+  margin: 0;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: none;
+}
+
