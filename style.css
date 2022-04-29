@@ -8,3 +8,8 @@
    font-family: 'Roboto',sans-serif;
    /*font:normal 16 px'Roboto,sans-serif;*/
     }
+.avatar {
+    width: 200px;
+    border-radius: 28;
+    box-shadow: 4px 4px 14px rgba(0,0,0,0.25);
+}
