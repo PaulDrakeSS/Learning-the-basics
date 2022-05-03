@@ -21,11 +21,20 @@
       a:active {
           color: blue;
       }
+      a:visited {
+          color: gray;
+      }
+
+      hr {
+          margin-top: 10px;
+          border-top: 10px;
+      }
 .avatar {
     width: 150px;
     height: 300px;
     border-radius: 10px;
-    margin-left: 30px;
+    margin-left: 10px;
+    margin-top: 20px;
     box-shadow: 4px 4px 14px rgba(0,0,0,0.45);
 }
 h1{
@@ -34,7 +43,12 @@ h1{
     color:rgb(245, 138, 76);
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 5px 5px 5px ; 
+    box-shadow: 10px 11px 14px ;
+    letter-spacing: 3px;
+    font-size: 52px;
+    text-align: center; 
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
 .info p {
   color: #86898f;
@@ -45,8 +59,11 @@ h1{
 }
 /* box model */
 .container {
-    max-width: 750px;
+    max-width: 1200px;
     margin: auto;
+}
+.card {
+    padding: 15px 20px;
 }
 /* /* .like { */
     /* background-color: green; */
