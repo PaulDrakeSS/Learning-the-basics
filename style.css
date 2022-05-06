@@ -95,6 +95,15 @@ h1{
 }
 .link-list {
     list-style: none;
+    padding: 0;
+}
+.link-list li {
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgb(209, 178, 190);
+}
+.link-list a {
+    margin: 0;
 }
 /* /* .like { */
     /* background-color: green; */
