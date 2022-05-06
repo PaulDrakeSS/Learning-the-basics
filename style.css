@@ -63,7 +63,7 @@ h1{
 }
 /* box model */
 .container {
-    max-width: 1200px;
+    max-width: 750px;
     margin: auto;
 }
  .card {
@@ -92,6 +92,9 @@ h1{
 .table td:nth-child(2),
 .table td:nth-child(3) {
     color:#86898f;
+}
+.link-list {
+    list-style: none;
 }
 /* /* .like { */
     /* background-color: green; */
