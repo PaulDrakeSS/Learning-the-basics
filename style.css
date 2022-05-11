@@ -15,6 +15,7 @@
         color: black ;
         text-decoration: none;
         margin-left: 20px;
+        padding: right 5px; 
       }
       a:hover {
           text-decoration: underline;
@@ -104,6 +105,15 @@ h1{
 }
 .link-list a {
     margin: 0;
+}
+.contact h2 {
+    text-align: center;
+
+}
+.form-group label {
+    display:block;
+    font-size: 14px;
+    color: #86898f;
 }
 /* /* .like { */
     /* background-color: green; */
