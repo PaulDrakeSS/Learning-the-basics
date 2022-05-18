@@ -1,39 +1,43 @@
   
-     @import url('https://fonts.googleapis.com/css2?family=Roboto:@1&display=swap'); 
-    body {
-        
+@import url('https://fonts.googleapis.com/css2?family=Roboto:@1&display=swap');
 
+
+body {
     background-color: #f1f1f1;
     font-size: 16px;
     font-weight: normal;
     color: #0f141e;
     font-family: 'Roboto',sans-serif;
     /*font:normal 16 px'Roboto,sans-serif;*/
-    }
+}
 
-    a {
-        color: black ;
-        text-decoration: none;
-        margin-top: 5px;
-        padding-bottom: 30px;
-        padding: right 5px; 
-      }
-      a:hover {
-          text-decoration: underline;
-      }
-      a:active {
-          color: blue;
-      }
-      a:visited {
-          color: gray;
-      }
+a {
+    color: black ;
+    text-decoration: none;
+    margin-top: 5px;
+    padding-bottom: 30px;
+    padding-right: 5px; 
+}
 
-      hr {
-          margin-top: 7px;
-          border-top: 10px;
-          background-color: #f3e995;
-          padding: 3px;
-      }
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: blue;
+}
+
+a:visited {
+    color: gray;
+}
+
+hr {
+    margin-top: 7px;
+    border-top: 10px;
+    background-color: #f3e995;
+    padding: 3px;
+}
+
 .avatar {
     width: 110px;
     height: 200px;
@@ -47,31 +51,34 @@
     display:flex;
     margin-bottom: 20px;
 }
+
 @media (max-width: 700px) {
     .info {
-        text-align: center;
-        display: block;
+         text-align: center;
+         display: block;
     }
 }
+
 .info-text {
     margin-left: 50px;
 }
+
 .info-text h2 {
     margin-top: 30px;
     font-size: 31px;
 }
+
 .info-text h4 {
     font-weight: 600px;
     margin-top: 25px;
     margin-bottom: 1px;
-    padding-top: 2px;
-    
+    padding-top: 2px;  
 }
 
 h1 {
     background-color: aquamarine;
     font-size: 32px;
-    color:rgb(245, 138, 76);
+    color: rgb(245, 138, 76);
     padding: 20px;
     border-radius: 5px;
     box-shadow: 10px 11px 14px ;
@@ -81,19 +88,23 @@ h1 {
     margin-top: 20px;
     margin-bottom: 30px;
 }
+
 .info p {
-  color: #86898f;
+  color: var(--main-text-color);
+  /* #86898f; */
   margin: 0;
   font-style: italic;
   font-weight: bold;
   text-decoration: none;
 }
 /* box model */
+
 .container {
     max-width: 750px;
     margin: auto;
     padding-top: 10px;
 }
+
 .container {
     position: relative;
     top: 120px;
@@ -109,28 +120,33 @@ h1 {
     margin-bottom: 20px;
     border-radius: 20px;
 } */
+
 .card h2 {
     margin-bottom: 10px;
 }
+
 .list {
     padding: 0 20px;
 }
+
 .list li {
     margin-bottom: 10px;
     color: #86898f;
 }
+
 .table {
     width: 100%;
 
 }
 .table td {
     padding-bottom: 10px;
-
 }
+
 .table td:nth-child(2),
 .table td:nth-child(3) {
     color:#86898f;
 }
+
 .link-list {
     list-style: none;
     padding: 0;
@@ -140,18 +156,21 @@ h1 {
     padding-bottom: 5px;
     border-bottom: 1px solid rgb(209, 178, 190);
 }
+
 .link-list a {
     margin: 0;
 }
+
 .contact h2 {
     text-align: center;
-
 }
+
 .form-group label {
-    display:block;
+    display: block;
     font-size: 14px;
     color: #86898f;
 }
+
 .form-group input,
 .form-group textarea {
   width: 100%;
@@ -164,29 +183,35 @@ h1 {
   outline: none;
   font-family: inherit;
  }
+
  .row {
-     display: flex;
-     margin-bottom: 20px;
+    display: flex;
+    margin-bottom: 20px;
  }
+
  .row > .form-group {
-     width: 50%;
-     margin-right: 20px;
+    width: 50%;
+    margin-right: 20px;
  }
+
 .row > .form-group:last-child {
     margin-right: 0;
 }
+
 .btn {
      background: rgb(40, 26, 33);
-     padding:12px 12px;
-     color:#fff;
+     padding: 12px 12px;
+     color: #fff;
      border: none;
      margin: 5px;
      font-family: inherit;
      cursor: pointer;
 }
+
 .btn:hover {
     opacity: 0.9;
 }
+
 /* /* .like { */
     /* background-color: green; */
     /* padding: 15px; */
@@ -205,20 +230,31 @@ h1 {
     border: 4px solid red;
     box-sizing: border-box;
 } */
+
 .bg-yellow {
     background: #fff9dc;
 }
+
 .bg-green {
-    background: #e5ffe7;
+    background: var(--card-colors-gren);
+    /* #e5ffe7; */
 }
+
 .bg-red {
     background: #fce0e0;
 }
+
 .bg-red p {
     font-size: x-small;
     font-style: italic;
     font-weight: 600;
 }
+
+:root {
+    --main-text-color:#86898f;
+    --card-colors-gren:#e5ffe7;
+}
+
 /* .position {
     position: relative; 
     border: 8px solid red;
