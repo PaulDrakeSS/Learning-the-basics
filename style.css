@@ -102,7 +102,6 @@ h1 {
     margin-bottom: 20px;
     border-radius: 20px;
 }
-*/
 .card h2 {
     margin-bottom: 10px;
 }
@@ -242,6 +241,60 @@ h1 {
     top: 50px;
 }
 */
+
+.wrapper {
+    height: 100vh;
+    overflow: hidden;
+    min-height: 50%;
+    padding: 50px;
+    background: #86898f;
+}
+
+.block {
+    
+}
+
+.block__row {
+    display: flex;
+    border: 20px solid #ece89d;
+    margin: 0px 0px 20px 0px;
+    align-items: stretch;
+    justify-content: space-around;
+}
+
+.block__column {
+    border: 20px solid #5e5373;
+    flex-basis: 300px;
+    flex-grow: 1;
+}
+
+.block__column_1 {
+    align-self: flex-start;
+    order: 3;
+}
+.block__column_2 {
+    align-self: flex-end;
+    order: 1;
+}
+.block__column_3 {
+    order: 2;
+}
+
+.block__item {
+    background-color: #18b5a4;
+    padding: 30px;
+    font-size: 50px;
+    color: #fff;
+    font-weight: 700;
+
+}
+.block__item :nth-child(1) {
+/* .block__row :nth-child(3) { */
+    /* border: 20px solid #5e5373; */
+    width:30%;
+}  
+
+
 
 
 
