@@ -9,10 +9,10 @@ body {
 
 .gal__row {
   display: flex;
-  justify-content: space-around;
+  justify-items: space-around;
   height: 250px;
-  margin: 10px;
-  padding: 10px;
+  margin-top: 10px;
+  /* padding-top: 10px; */
 } 
 
 @media screen and (max-width: 650px) {
