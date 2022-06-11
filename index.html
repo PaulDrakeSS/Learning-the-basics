@@ -1,75 +1,133 @@
 <!DOCTYPE html>
 <html lang="ru">
-    <head>
-        <meta charset="UTF-8">
-        <title>Paul's propety</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <h1>Проба HTML пера.</h1>
-        <hr size ="8" color="green" >
-        <br>
-        <table cellspacing="30">
-            <tr>
-                <td><img src="assets/zayka.jpg" width="100"alt="изображение питомца"/></td>
-                <td>
-                    <h2>Кошка по кличке "Зайка"
-                    </h2>
-                    <p><em>Питомец семьи<strong> Селезнёвых.</strong></em> </p>
-                    <p>Кошка пушистая,серая и ласковая.</p>
-                </td>
-            </tr>
+  <head>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" href="./styles/global.css"/>
+    <link rel="stylesheet" href="./styles/page-styles/index.css"/>
+    <title>Paul's propety</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="hatfix">
+        <h1>Проба HTML-CSS пера.</h1>
+        <!-- <hr> -->
+      </div>
+      <div class="info">
+        <img src="assets/zayka.jpg" alt="изображение питомца" class= "avatar"/>
+        <div class="info-text">
+          <h2>Кошка по кличке "Зайка"</h2>
+          <p>Питомец семьи<strong> Селезнёвых.</strong> </p>
+          <p>Кошка пушистая,серая и ласковая.</p>
+          <h4>О породе в сети интернет</h4>
+          <a href="https://ru.wikipedia.org/wiki/Шотландская_вислоухая_кошка"
+            title="Википедия" target="_blank">Wiki </a>
+          |
+          <a href="https://pets.mail.ru/cat-breeds/skottish-fold"
+            title="рубрика Питомцы на mail-ru" target="_blank">питомцы на mail-ru</a>
+        </div>
+      </div>
+      <!-- <hr size="2" color="green"> -->
+      <div class="card bg-yellow">
+        <h2>"Карта"питомца.</h2>
+        <table class="table">
+          <!-- <tr>
+            <th>Статус</th>
+            <th>Характеристика</th>
+            <th>Год</th>
+            </tr> -->
+          <tr>
+            <td>Котёнок</td>
+            <td>Милый пушистик</td>
+            <td>2007-2008</td>
+          </tr>
+          <tr>
+            <td>Взрослая кошка</td>
+            <td>Пушистик с лёгким эффектом "блонди"</td>
+            <td>2009-2015</td>
+          </tr>
+          <tr>
+            <td>Кошка -"бабуля"</td>
+            <td>Ласкушка умудрённая жизнью</td>
+            <td>2016-п.н.время</td>
+          </tr>
         </table>
-        <p><em>Информация будет изложена <strong>ниже.</strong></em></p>
-        <hr size="2" color="green">
-        <h3>"Карта"питомца.</h3>
-        <table>
-            <tr>
-                <th>Статус</th>
-                <th>Характеристика</th>
-                <th>Год</th>
-            </tr>
-            <tr>
-                <td>Котёнок</td>
-                <td>Милый пушистик</td>
-                <td>2007-2008</td>
-            </tr>
-            <tr>
-                <td>Взрослая кошка</td>
-                <td>Пушистик с лёгким эффектом "блонди"</td>
-                <td>2009-2015</td>
-            </tr>
-            <tr>
-                <td>Кошачья "бабусяка"</td>
-                <td>Ласкушка умудрённая жизнью</td>
-                <td>2016-п.н.время</td>
-            </tr>
-        </table>
-        <br>
-        <hr size="2" color="green">
+      </div>
+      <div class="card bg-green">
         <h2>What do older cats like?</h2>
-        <ul type="square">
-            <li><em>dry food.</em></li>
-            <li><em>wet food.</em></li>
-            <li><em>games with the owner</em>.</li>
+        <ul class="list">
+          <li>dry food</li>
+          <li>wet food</li>
+          <li>games with the owner</li>
         </ul>
-        <hr size="2" color="green">
-        <h4>О корме,его видах,полезности.</h4>
-        <a href="secpage.html"target=_blank>посмотреть список про корм</a>  <br>
-        <hr size="2" color="green">
+      </div>
+      <div class="card bg-red">
+        <h3> Корм для кошек- Топ 7.</h3>
+        <ol>
+          <li>Orijen.</li>
+          <li>Hill's.</li>
+          <li>Optimeal.</li>
+          <li>Royal Canin.</li>
+          <li>Brit Premium.</li>
+          <li>Bosh SANABELLE.</li>
+          <li>Purina Pro Plan.</li>
+        </ol>
+        <p>
+          Перечень кормов из списка не является руководством к действию,
+          а служит лишь средством расширения кругозора *.
+        </p>
+        <!-- <a href="secpage.html"target=_blank>посмотреть список про корм</a>  <br> -->
+        <!-- <hr size="2" color="green"> -->
+      </div>
+      <!-- <div class="card"> -->
+      <div class="card bg-green">
+        <h3>видео на YouTube</h3>
+        <ul class="link-list">
+          <li><a href="https://www.youtube.com/watch?v=ELE9TvccPas"
+            target=_blank>Топ 7- корм для кошек на YouTube</a>
+          </li>
+          <li><a href="https://www.youtube.com/watch?v=nOVvq6HFsks"
+            target=_blank>Most popular cats in Russia</a>
+          </li>
+        </ul>
+      </div>
+      <!-- <div class="go-to-gall"> -->
+      <div class= "go-to-gall">
+        <a href="ph-gallery-flex.html"target=_blank>перейти в фотогаллерею flex</a>
+        <a href="ph-gallery-grid.html"target=_blank>перейти в фотогаллерею grid</a>
+
+      </div>
+      <div class="contact">
         <h2>Связаться с владельцем</h2>
-        <form action="/">            
-            <label for="name">Ваше имя:</label>
-            <input type="text" id="name"
+        <form action="/">
+          <div class="row">
+            <div class="form-group">            
+              <label for="name">Ваше имя:</label>
+              <input type="text" id="name"
                 placeholder="Введите имя...">
-            <br>
-            <label for="email">Ваш Email:</label>
-            <input type="email" id="email"
-                placeholder="Email...">
-            <input type="submit">
-            <br>
+            </div>
+            <div class="form-group">
+              <label for="email">Ваш email:</label>
+              <input type="email" id="email"
+                placeholder="email...">
+            </div>
+          </div>
+          <div class="form-group">
             <label for="text">Ваше сообщение:</label>
-            <textarea id="text" rows="3" cols="10"></textarea>
+            <textarea id="text" rows="2" cols="15"></textarea>
+          </div>
+          <input class="btn" type="submit" value="Связаться!">
         </form>
-    </body>
+      </div>
+      <div class="position">
+        <div class="box"> </div>
+      </div>
+    </div>
+    <!-- <div class="box-model">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      </div> --> 
+    <div style="margin-bottom: 300px;;"></div>
+  </body>
 </html>

@@ -1,0 +1,35 @@
+body {
+  background-color: rgb(246, 201, 185);
+
+}
+
+.gal {
+  margin: 10px;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 220px 220px 220px;
+  justify-items: center;
+  gap: 20px;
+}
+
+.gal img {
+  height: 85%;
+  width: 85%;
+  padding: 10px;
+  border: 5px solid rgb(244, 179, 147);
+  border-radius: 9px;
+  justify-content: center;
+  object-fit: cover;
+}
+
+
+
+@media screen and (max-width: 650px ) {
+  .gal {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  
+}
+
